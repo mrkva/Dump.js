@@ -1,5 +1,5 @@
-HOST = null; // localhost
-PORT = 8001;
+HOST = "0.0.0.0";
+PORT = 80;
 
 // when the daemon started
 var starttime = (new Date()).getTime();
@@ -88,8 +88,8 @@ function createSession (nick) {
     if (session && session.nick === nick) return null;
   }
 
-  var session = {
-    nick: nick,
+  var session = { 
+    nick: nick, 
     id: Math.floor(Math.random()*99999999999).toString(),
     timestamp: new Date(),
 
