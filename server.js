@@ -1,4 +1,4 @@
-HOST = "0.0.0.0";
+HOST = null;
 PORT = 80;
 
 // when the daemon started
