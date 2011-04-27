@@ -1,5 +1,4 @@
-== Dump.js ==
-Image chat inspired by Dump.fm based on Node_chat project.
+Demo for node.js http://tinyclouds.org/node
 
 to run
 $ /usr/local/bin/node server.js
